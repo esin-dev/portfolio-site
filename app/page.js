@@ -209,9 +209,34 @@ export default function Portfolio() {
           </p>
 
           <div className="space-y-4 text-lg">
-            <p>esinemmanuel934@gmail.com</p>
-            <p>GitHub</p>
-            <p>LinkedIn</p>
+            <a
+  href="mailto:youremail@gmail.com"
+  className="text-indigo-600 hover:underline"
+>
+  esinemmanuel934@gmail.com
+</a>
+</div>
+
+<div>
+            <a
+  href="https://github.com/esin-dev"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-indigo-600 underline"
+>
+  GitHub
+</a>
+</div>
+<div>
+
+              <a
+      href="https://dailyflow-app.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 font-semibold"
+    >
+      Task Management App Live Demo
+    </a>
           </div>
         </div>
       </section>
